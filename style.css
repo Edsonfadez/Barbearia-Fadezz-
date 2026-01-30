@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #000;
+  color: #fff;
+}
+
+.container {
+  max-width: 420px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.slogan {
+  text-align: center;
+  opacity: 0.8;
+  margin-bottom: 25px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 8px;
+  background: #111;
+  color: #fff;
+  border: 1px solid #333;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #222;
+}
+
+.confirmar {
+  background: #fff;
+  color: #000;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  margin-top: 5px;
+}
