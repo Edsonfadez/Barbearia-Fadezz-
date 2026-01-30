@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Barbearia Fadez</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Barbearia Fadez</h1>
+    <p class="slogan">Corte é cultura</p>
+
+    <section>
+      <h2>Serviços</h2>
+      <button onclick="selecionarServico('Corte',35)">Corte – R$35</button>
+      <button onclick="selecionarServico('Corte navalhado',40)">Corte navalhado – R$40</button>
+      <button onclick="selecionarServico('Corte + barba',60)">Corte + barba – R$60</button>
+      <button onclick="selecionarServico('Completo',70)">Corte, barba e sobrancelha – R$70</button>
+    </section>
+
+    <section>
+      <h2>Data</h2>
+      <input type="date" id="data">
+    </section>
+
+    <section>
+      <h2>Horário</h2>
+      <input type="time" id="hora">
+    </section>
+
+    <button class="confirmar" onclick="confirmarAgendamento()">
+      Confirmar Agendamento
+    </button>
+
+    <p id="resumo"></p>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
